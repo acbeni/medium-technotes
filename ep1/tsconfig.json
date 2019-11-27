@@ -11,7 +11,7 @@
       {
         "name": "ts-graphql-plugin",
         "schema": "ctp.graphql",
-        "tag": "gql"
+        "tag": "print"
       }
     ]
   },

@@ -10,9 +10,9 @@ import { PathLike, writeFile } from 'fs'
 
 
 
-const projectKey = process.env.JVM_SDK_IT_PROJECT_KEY
-const clientId = process.env.JVM_SDK_IT_CLIENT_ID
-const clientSecret = process.env.JVM_SDK_IT_CLIENT_SECRET
+const projectKey = process.env.CTP_PROJECT_KEY
+const clientId = process.env.CTP_CLIENT_ID
+const clientSecret = process.env.CTP_CLIENT_SECRET
 
 const authMiddleware = createAuthMiddlewareForClientCredentialsFlow({
   host: 'https://auth.sphere.io',
